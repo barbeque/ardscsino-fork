@@ -607,6 +607,6 @@ Wire Wire Line
 Connection ~ 4300 4225
 Wire Wire Line
 	4300 4225 4300 4125
-Text Notes 3375 6725 0    50   ~ 0
-TODO: Figure out ALL of these SD card pinouts
+Text Notes 2125 7250 0    50   ~ 0
+Still not 100% sure about these SD card pinouts
 $EndSCHEMATC
