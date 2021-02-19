@@ -110,8 +110,6 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8600 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8075 3600 8075 3775
-Wire Wire Line
 	8075 3775 8200 3775
 Connection ~ 8200 3775
 Wire Wire Line
@@ -121,7 +119,7 @@ SCSI_IO
 Wire Wire Line
 	7725 4750 8200 4750
 Wire Wire Line
-	7725 3600 7725 4750
+	7725 3600 7725 3775
 Connection ~ 8200 4750
 Wire Wire Line
 	8200 4750 9800 4750
@@ -661,4 +659,25 @@ $EndComp
 NoConn ~ 7000 4525
 Text Notes 7050 4525 0    50   ~ 0
 LED (onboard)
+$Comp
+L Device:C_Small C?
+U 1 1 6033D3D1
+P 7900 3775
+F 0 "C?" V 8025 3775 50  0000 C CNN
+F 1 "0.1µF" V 8100 3750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 3775 50  0001 C CNN
+F 3 "~" H 7900 3775 50  0001 C CNN
+	1    7900 3775
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8075 3600 8075 3775
+Wire Wire Line
+	8000 3775 8075 3775
+Connection ~ 8075 3775
+Wire Wire Line
+	7800 3775 7725 3775
+Connection ~ 7725 3775
+Wire Wire Line
+	7725 3775 7725 4750
 $EndSCHEMATC
