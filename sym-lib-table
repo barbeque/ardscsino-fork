@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name bp)(type Legacy)(uri ${KIPRJMOD}/blue-pill-kicad-master/bp.lib)(options "")(descr ""))
+  (lib (name DM3AT-SF-PEJM5)(type Legacy)(uri ${KIPRJMOD}/sd-card/DM3AT-SF-PEJM5.lib)(options "")(descr ""))
 )
