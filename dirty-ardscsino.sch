@@ -36,28 +36,6 @@ F 3 "~" H 3450 3925 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small_US R2
-U 1 1 60304489
-P 7725 3500
-F 0 "R2" H 7793 3546 50  0000 L CNN
-F 1 "0Ω" H 7793 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7725 3500 50  0001 C CNN
-F 3 "~" H 7725 3500 50  0001 C CNN
-	1    7725 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R3
-U 1 1 60304991
-P 8075 3500
-F 0 "R3" H 8143 3546 50  0000 L CNN
-F 1 "0Ω" H 8143 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8075 3500 50  0001 C CNN
-F 3 "~" H 8075 3500 50  0001 C CNN
-	1    8075 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 60305B0E
 P 7500 3400
@@ -72,10 +50,6 @@ Wire Wire Line
 	7725 3400 7500 3400
 Wire Wire Line
 	8075 3400 8075 3050
-Text Label 8075 3050 0    50   ~ 0
-TERM_POWER
-Text Label 6100 4775 3    50   ~ 0
-TERM_POWER
 $Comp
 L power:GND #PWR0102
 U 1 1 603069F5
@@ -366,8 +340,6 @@ F 3 "~" H 4700 6050 50  0001 C CNN
 	1    4700 6050
 	0    1    1    0   
 $EndComp
-Text Label 4800 5850 1    50   ~ 0
-TERM_POWER
 Wire Wire Line
 	4500 5850 4500 5700
 Wire Wire Line
@@ -607,4 +579,118 @@ Wire Wire Line
 	4300 4225 4300 4125
 Text Notes 2125 7250 0    50   ~ 0
 Still not 100% sure about these SD card pinouts
+$Comp
+L power:+5V #PWR0105
+U 1 1 6030AE01
+P 4875 1700
+F 0 "#PWR0105" H 4875 1550 50  0001 C CNN
+F 1 "+5V" H 4890 1873 50  0000 C CNN
+F 2 "" H 4875 1700 50  0001 C CNN
+F 3 "" H 4875 1700 50  0001 C CNN
+	1    4875 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 6030B96F
+P 5850 5000
+F 0 "#PWR0106" H 5850 4850 50  0001 C CNN
+F 1 "+5V" H 5865 5173 50  0000 C CNN
+F 2 "" H 5850 5000 50  0001 C CNN
+F 3 "" H 5850 5000 50  0001 C CNN
+	1    5850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5000 6100 5000
+Wire Wire Line
+	6100 5000 6100 4775
+$Comp
+L power:GND #PWR0110
+U 1 1 6030E807
+P 5350 1700
+F 0 "#PWR0110" H 5350 1450 50  0001 C CNN
+F 1 "GND" H 5355 1527 50  0000 C CNN
+F 2 "" H 5350 1700 50  0001 C CNN
+F 3 "" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 6030EDC2
+P 5125 1700
+F 0 "C1" V 5377 1700 50  0000 C CNN
+F 1 "4.7µF" V 5286 1700 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5125 1700 50  0001 C CNN
+F 3 "~" H 5125 1700 50  0001 C CNN
+	1    5125 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4975 1700 4875 1700
+Wire Wire Line
+	5275 1700 5350 1700
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 60313F23
+P 4875 2025
+F 0 "JP1" V 4921 1978 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 4830 1978 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4875 2025 50  0001 C CNN
+F 3 "~" H 4875 2025 50  0001 C CNN
+	1    4875 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4875 1925 4875 1700
+Connection ~ 4875 1700
+Text Label 4875 2125 3    50   ~ 0
+TERM_POWER
+$Comp
+L power:+5V #PWR0111
+U 1 1 6031BD50
+P 8075 3050
+F 0 "#PWR0111" H 8075 2900 50  0001 C CNN
+F 1 "+5V" H 8090 3223 50  0000 C CNN
+F 2 "" H 8075 3050 50  0001 C CNN
+F 3 "" H 8075 3050 50  0001 C CNN
+	1    8075 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 6031C80E
+P 4800 5700
+F 0 "#PWR0112" H 4800 5550 50  0001 C CNN
+F 1 "+5V" H 4815 5873 50  0000 C CNN
+F 2 "" H 4800 5700 50  0001 C CNN
+F 3 "" H 4800 5700 50  0001 C CNN
+	1    4800 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5700 4800 5850
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 6032257F
+P 8075 3500
+F 0 "JP?" V 8075 3452 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 8030 3453 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8075 3500 50  0001 C CNN
+F 3 "~" H 8075 3500 50  0001 C CNN
+	1    8075 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 603232E7
+P 7725 3500
+F 0 "JP?" V 7725 3452 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 7680 3453 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7725 3500 50  0001 C CNN
+F 3 "~" H 7725 3500 50  0001 C CNN
+	1    7725 3500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
