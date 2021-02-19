@@ -660,10 +660,10 @@ NoConn ~ 7000 4525
 Text Notes 7050 4525 0    50   ~ 0
 LED (onboard)
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 6033D3D1
 P 7900 3775
-F 0 "C?" V 8025 3775 50  0000 C CNN
+F 0 "C2" V 8025 3775 50  0000 C CNN
 F 1 "0.1µF" V 8100 3750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 3775 50  0001 C CNN
 F 3 "~" H 7900 3775 50  0001 C CNN
