@@ -442,8 +442,6 @@ NoConn ~ 7000 4025
 NoConn ~ 7000 3925
 NoConn ~ 7000 4325
 NoConn ~ 7000 4425
-NoConn ~ 6400 2675
-NoConn ~ 6300 2675
 NoConn ~ 7000 2925
 NoConn ~ 5500 3625
 NoConn ~ 5500 3725
