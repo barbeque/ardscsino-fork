@@ -248,41 +248,6 @@ F 3 "" H 3100 5125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 5125 3100 5125
-$Comp
-L Device:LED D1
-U 1 1 60324848
-P 7000 5075
-F 0 "D1" V 7039 4958 50  0000 R CNN
-F 1 "LED" V 6948 4958 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 5075 50  0001 C CNN
-F 3 "~" H 7000 5075 50  0001 C CNN
-	1    7000 5075
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R1
-U 1 1 60326107
-P 7000 5325
-F 0 "R1" H 7068 5371 50  0000 L CNN
-F 1 "75Ω" H 7068 5280 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 5325 50  0001 C CNN
-F 3 "~" H 7000 5325 50  0001 C CNN
-	1    7000 5325
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 60326A62
-P 7000 5425
-F 0 "#PWR0104" H 7000 5175 50  0001 C CNN
-F 1 "GND" H 7005 5252 50  0000 C CNN
-F 2 "" H 7000 5425 50  0001 C CNN
-F 3 "" H 7000 5425 50  0001 C CNN
-	1    7000 5425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 4525 7000 4925
 Text Label 7000 3525 0    50   ~ 0
 SD_MOSI
 Text Label 7000 3625 0    50   ~ 0
@@ -672,10 +637,10 @@ $EndComp
 Wire Wire Line
 	4800 5700 4800 5850
 $Comp
-L Device:Jumper_NC_Small JP?
+L Device:Jumper_NC_Small JP3
 U 1 1 6032257F
 P 8075 3500
-F 0 "JP?" V 8075 3452 50  0000 R CNN
+F 0 "JP3" V 8075 3452 50  0000 R CNN
 F 1 "Jumper_NC_Small" V 8030 3453 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8075 3500 50  0001 C CNN
 F 3 "~" H 8075 3500 50  0001 C CNN
@@ -683,14 +648,17 @@ F 3 "~" H 8075 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP?
+L Device:Jumper_NC_Small JP2
 U 1 1 603232E7
 P 7725 3500
-F 0 "JP?" V 7725 3452 50  0000 R CNN
+F 0 "JP2" V 7725 3452 50  0000 R CNN
 F 1 "Jumper_NC_Small" V 7680 3453 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7725 3500 50  0001 C CNN
 F 3 "~" H 7725 3500 50  0001 C CNN
 	1    7725 3500
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 7000 4525
+Text Notes 7050 4525 0    50   ~ 0
+LED (onboard)
 $EndSCHEMATC
