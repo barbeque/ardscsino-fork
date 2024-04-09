@@ -1,4 +1,5 @@
 *cache*
+*.lck
 *autosave*
 *bak*
 *.zip
