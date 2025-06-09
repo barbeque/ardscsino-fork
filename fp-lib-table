@@ -1,5 +1,7 @@
 (fp_lib_table
-  (lib (name blue-pill-kicad-master)(type KiCad)(uri ${KIPRJMOD}/blue-pill-kicad-master)(options "")(descr ""))
-  (lib (name sd-card)(type KiCad)(uri ${KIPRJMOD}/sd-card)(options "")(descr ""))
-  (lib (name 171825-4)(type KiCad)(uri ${KIPRJMOD}/171825-4)(options "")(descr ""))
+  (version 7)
+  (lib (name "blue-pill-kicad-master")(type "KiCad")(uri "${KIPRJMOD}/blue-pill-kicad-master")(options "")(descr ""))
+  (lib (name "sd-card")(type "KiCad")(uri "${KIPRJMOD}/sd-card")(options "")(descr ""))
+  (lib (name "171825-4")(type "KiCad")(uri "${KIPRJMOD}/171825-4")(options "")(descr ""))
+  (lib (name "microSD_Breakout")(type "KiCad")(uri "${KIPRJMOD}/microSD_Breakout.pretty")(options "")(descr ""))
 )
