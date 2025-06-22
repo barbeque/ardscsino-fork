@@ -11253,6 +11253,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TP"
+		(at 101 82.39325 180)
+		(layer "B.SilkS")
+		(uuid "20525b15-15b9-4af8-9b35-6c461bfb1954")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
