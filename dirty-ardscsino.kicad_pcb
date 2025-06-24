@@ -11263,10 +11263,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "MISO"
+		(at 127 87.27825 180)
+		(layer "B.SilkS")
+		(uuid "18ebc051-9385-42ae-a818-6c5c46c75540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "TP"
 		(at 101 82.39325 180)
 		(layer "B.SilkS")
 		(uuid "20525b15-15b9-4af8-9b35-6c461bfb1954")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "MOSI"
+		(at 127 89.81825 180)
+		(layer "B.SilkS")
+		(uuid "776b6ebd-ca42-4daf-b774-655cc4e8b66f")
 		(effects
 			(font
 				(size 1 1)
