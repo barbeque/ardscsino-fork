@@ -4569,17 +4569,6 @@
 		)
 		(uuid "defeb9ea-31d4-4cc4-b3a8-b880a489f767")
 	)
-	(text "TODO: Assign pins to SCSI connector, add SD card slot"
-		(exclude_from_sim no)
-		(at 118.11 73.025 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2d5e764-fb7a-4580-b844-50e1ff5744bb")
-	)
 	(junction
 		(at 123.825 43.18)
 		(diameter 0)
@@ -5554,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.115 167.005) (xy 34.29 167.005)
+			(xy 31.115 167.005) (xy 33.655 167.005)
 		)
 		(stroke
 			(width 0)
@@ -6283,7 +6272,7 @@
 		(uuid "80f25407-6a1b-44f6-91a0-1b0005491f3b")
 	)
 	(label "SD_MISO"
-		(at 34.29 167.005 0)
+		(at 33.655 167.005 0)
 		(effects
 			(font
 				(size 1.27 1.27)
