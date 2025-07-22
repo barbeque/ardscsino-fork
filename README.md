@@ -9,7 +9,7 @@ You will need an STLink-V2 programmer (eBay clones are fine) and at least four j
  2. Set the BOOT0 jumper (_furthest_ from the Reset switch) to 1 and connect the STLink-V2 to your computer.
  3. Run the BlueSCSI Updater, and select option 2 to program a bare Blue Pill board. The STLink should flash and then state that things are all good.
  4. Do not hit Return yet!
- 5. Unplug the STLink-V2.
+ 5. Unplug the STLink-V2 from both the Blue Pill and the computer. 
  6. Reset the BOOT0 jumper to 0. Set the BOOT1 jumper (_closest_ to the reset switch) to 1.
  7. Plug the Blue Pill into your computer through USB. Wait a couple seconds.
  8. Now you can hit Return and let the BlueSCSI Updater flash your Blue Pill.

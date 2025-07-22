@@ -815,7 +815,7 @@
 		(property "Reference" "U1"
 			(at -1.27 -8.255 0)
 			(layer "F.SilkS")
-			(uuid "a6b7046a-6ce7-4d5e-a1e6-07629e7d5e1c")
+			(uuid "26673fd0-8289-43d2-b1f1-5b96c9e54fbc")
 			(effects
 				(font
 					(size 1 1)
@@ -826,7 +826,7 @@
 		(property "Value" "STM32 Bluepill"
 			(at -1.27 -6.85 0)
 			(layer "F.SilkS")
-			(uuid "1942a714-7ac8-4217-a25a-6c0143894d5f")
+			(uuid "0d73ae6c-c346-47fb-9cd1-72f4973661f9")
 			(effects
 				(font
 					(size 1 1)
@@ -838,7 +838,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66430998-bac3-48d7-87a2-772f643e7d2e")
+			(uuid "bf57d781-8adf-4bdf-af6e-ea1a7ada59ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +850,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8d216ed-8d70-4f8b-afea-8264d74be791")
+			(uuid "0fcf9254-3485-46e6-bd3a-32ab331f3857")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1461,7 @@
 			(net 3 "/SD_VCC")
 			(pinfunction "3.3V")
 			(pintype "power_out")
-			(uuid "8cc1a592-7dd0-4b1a-a2ea-f0de522f4796")
+			(uuid "f60b7967-ef8c-49e7-ab61-72eee1d72186")
 		)
 		(pad "5V" thru_hole circle
 			(at -9.525 22.225 180)
@@ -1494,7 +1494,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "060bf0c4-14d1-4297-bc70-31e4de73df99")
+			(uuid "d6b1ad5c-3539-4391-bf49-a82f590c99ca")
 		)
 		(pad "G" thru_hole circle
 			(at 5.715 -18.415 180)
@@ -1505,7 +1505,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "060bf0c4-14d1-4297-bc70-31e4de73df99")
+			(uuid "ed3306ac-dbd8-4e76-91e0-b2f74fd3647d")
 		)
 		(pad "NRST" thru_hole circle
 			(at 5.715 -13.335 180)
@@ -10942,6 +10942,18 @@
 		(at 106 124 0)
 		(layer "F.SilkS" knockout)
 		(uuid "9d463ca5-d851-4e62-9f95-67c5bc9ded0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 122.1232 111.34175 0)
+		(layer "F.SilkS")
+		(uuid "be6e1ac3-1da2-4a1e-99c1-4e7f50d0962e")
 		(effects
 			(font
 				(size 1 1)
