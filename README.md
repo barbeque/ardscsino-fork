@@ -15,6 +15,12 @@ You will need an STLink-V2 programmer (eBay clones are fine) and at least four j
  8. Now you can hit Return and let the BlueSCSI Updater flash your Blue Pill.
  9. Unplug it, set the jumpers back to default, and enjoy your board.
 
+For the boards without jumpers (i.e. the USB-C ones that I warn about lower down - go take a look) you can do the following steps instead:
+
+ 0. Do all the preceding steps from the regular Blue Pill.
+ 1. Hold the BOOT0 button on the Blue Pill while inserting the ST-Link into your computer. Keep holding it while you run the BlueSCSI Updater and write the bare firmware. Release the BOOT0 button and unplug it and the ST-Link once done.
+ 2. In stage two, plug the Blue Pill in via USB-C, start the firmware update process, and hit the nRST (reset) button on the top when the flasher is waiting for the device to appear. It should proceed.
+
 ## Common Blue Pill problems
 Because the STM32 Blue Pill has been knocked off by a jillion different individuals, here are some of the problems I've encountered while trying to build these boards.
 
