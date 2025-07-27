@@ -1,3 +1,10 @@
+## Current Status
+Dirty ArdSCSIno II, V1 board works on at least one system using the BlueSCSI v1 USB firmware. Please refer to the table below for full testing.
+
+| Platform          | Works?    | Comments |
+|-------------------|-----------|----------|
+| Macintosh LC | Yes | With termination power |
+
 ## Flashing
 **Warning**: these instructions are a work in progress. Please report any hangups (that aren't related to crappy Blue Pills, see below) so we can fix this section.
 
