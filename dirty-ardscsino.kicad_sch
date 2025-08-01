@@ -3248,7 +3248,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Bridged"
+		(symbol "Jumper_2_Small_Bridged_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3256,7 +3256,7 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
@@ -3320,7 +3320,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Small_Bridged_0_0"
+			(symbol "Jumper_2_Small_Bridged_1_0_0"
 				(circle
 					(center -1.016 0)
 					(radius 0.254)
@@ -3344,7 +3344,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Small_Bridged_0_1"
+			(symbol "Jumper_2_Small_Bridged_1_0_1"
 				(arc
 					(start -0.762 0.254)
 					(mid 0 0.5696)
@@ -3358,7 +3358,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Small_Bridged_1_1"
+			(symbol "Jumper_2_Small_Bridged_1_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -4648,12 +4648,6 @@
 		(uuid "4c4d9820-79d4-46df-aab7-adb3a3222e45")
 	)
 	(junction
-		(at 208.28 95.885)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54ec8139-737f-4462-8791-f3fd4a55658d")
-	)
-	(junction
 		(at 208.28 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5133,6 +5127,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.105 90.805) (xy 205.105 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f5ecbb-d5e7-48a0-88dd-3cb2da9cefc4")
+	)
+	(wire
+		(pts
 			(xy 82.55 69.215) (xy 78.74 69.215)
 		)
 		(stroke
@@ -5553,6 +5557,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.215 90.805) (xy 196.215 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a521e2ba-a16d-486e-8747-0cb5738da9c7")
+	)
+	(wire
+		(pts
 			(xy 31.115 177.165) (xy 33.655 177.165)
 		)
 		(stroke
@@ -5663,7 +5677,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.105 77.47) (xy 205.105 95.885)
+			(xy 205.105 77.47) (xy 205.105 85.725)
 		)
 		(stroke
 			(width 0)
@@ -5673,7 +5687,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 83.82) (xy 196.215 95.885)
+			(xy 196.215 83.82) (xy 196.215 85.725)
 		)
 		(stroke
 			(width 0)
@@ -5690,16 +5704,6 @@
 			(type default)
 		)
 		(uuid "e4730b97-cda9-45de-9e79-9c140a3cc577")
-	)
-	(wire
-		(pts
-			(xy 208.28 95.885) (xy 249.555 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac0ea98-c14b-46fd-9652-20fd9781a689")
 	)
 	(wire
 		(pts
@@ -6401,26 +6405,6 @@
 		)
 		(uuid "af79d64b-fa5b-4273-83af-2e4963dda576")
 	)
-	(label "SD_MISO"
-		(at 38.1 139.065 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1b14546-5be6-48e5-907f-b951733beace")
-	)
-	(label "SD_MOSI"
-		(at 38.1 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1ecdc37-d898-4c2c-8020-8eb998334e96")
-	)
 	(label "SCSI_DAT3"
 		(at 177.8 79.375 0)
 		(effects
@@ -6460,16 +6444,6 @@
 			(justify left bottom)
 		)
 		(uuid "c0326d9c-29a4-4941-a740-855696117209")
-	)
-	(label "BP_MOSI"
-		(at 33.02 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c43a3147-f855-4d26-8cf6-9c3795a32222")
 	)
 	(label "SD_CSK"
 		(at 86.36 172.72 0)
@@ -6640,16 +6614,6 @@
 			(justify right bottom)
 		)
 		(uuid "f009159b-d41f-4c2a-9971-a0387e40b291")
-	)
-	(label "BP_MISO"
-		(at 33.02 139.065 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0899a31-105e-4a0a-af6d-93ebec780bd6")
 	)
 	(label "SCSI_DAT0"
 		(at 252.095 106.045 270)
@@ -8486,7 +8450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TE_171825-4"
+		(property "Footprint" "171825-4:TE_171825-4"
 			(at 116.84 167.64 0)
 			(effects
 				(font
@@ -8619,33 +8583,37 @@
 		)
 	)
 	(symbol
+		(lib_name "Jumper_2_Small_Bridged_1")
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 35.56 130.81 0)
+		(at 205.105 88.265 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1bf1637e-9aea-4f12-92fb-7339af53d918")
-		(property "Reference" "JP4"
-			(at 35.56 125.73 0)
+		(uuid "c9839efa-8417-45aa-92af-0ac7bb8a0ce3")
+		(property "Reference" "JP3"
+			(at 207.01 88.2649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Jumper_2_Small_Bridged"
-			(at 35.56 128.27 0)
+			(at 206.375 89.5349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 35.56 130.81 0)
+			(at 205.105 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 130.81 0)
+			(at 205.105 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,16 +8631,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 35.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" ""
-			(at 35.56 130.81 0)
+			(at 205.105 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,92 +8640,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ad4a284-1c56-4918-b70e-c00027da08e6")
+			(uuid "aadf5b55-41e3-4bc6-bd99-1155b653de89")
 		)
 		(pin "2"
-			(uuid "c657b16c-080f-435d-8a0f-ceb746d5ec73")
-		)
-		(instances
-			(project ""
-				(path "/104d678f-d12a-483d-a1a0-89cafc11d4bb"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 35.56 139.065 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22f6793d-f19b-4f09-a429-4e200a8e87db")
-		(property "Reference" "JP5"
-			(at 35.56 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Small_Bridged"
-			(at 35.56 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 35.56 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 35.56 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" ""
-			(at 35.56 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff92c295-1a36-4334-8ac4-45b6ca6df5d6")
-		)
-		(pin "2"
-			(uuid "9b7c8ad4-fcb1-4979-94bc-96ee3241da0b")
+			(uuid "11ead06c-4851-40ee-9357-79bc4872293e")
 		)
 		(instances
 			(project "dirty-ardscsino"
 				(path "/104d678f-d12a-483d-a1a0-89cafc11d4bb"
-					(reference "JP5")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -8833,6 +8715,77 @@
 			(project ""
 				(path "/104d678f-d12a-483d-a1a0-89cafc11d4bb"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper_2_Small_Bridged_1")
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 196.215 88.265 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee748298-9f34-409e-9c33-ae776a2a1ae4")
+		(property "Reference" "JP2"
+			(at 201.295 88.265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 194.31 86.9951 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 196.215 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.215 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 196.215 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25970646-7f2f-4a1f-a581-3b58e8ee8d3c")
+		)
+		(pin "2"
+			(uuid "eb21ecc2-67ad-4907-8458-2b50778450ae")
+		)
+		(instances
+			(project ""
+				(path "/104d678f-d12a-483d-a1a0-89cafc11d4bb"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
