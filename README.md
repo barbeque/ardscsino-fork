@@ -40,7 +40,7 @@ On many Blue Pills sold today, pin 40 is a "5V" pin. My board expects this pin t
 
 The best thing to do here is to simply not solder this pin to the board: I do a 20-pin male header on one side and a 19-pin male header on the other side.
 
-Please notice that the LED pin on this board is changed from normal; BlueSCSI firmware will expect it at PC13 and this one is at PB2.
+Please notice also that the LED pin on this board is changed from normal; BlueSCSI firmware will expect it at PC13 and this one is at PB2.
 
 ### Not enough flash
 Make sure you are getting a STM32...C8T6 board. These have enough flash for the BlueSCSI firmware. Otherwise, you can get a mysterious `LIBUSB_ERROR_TIMEOUT` (C6T6) and nothing will work.
