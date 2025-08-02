@@ -8352,7 +8352,7 @@
 		(at 123.825 53.975 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060313f23")
@@ -8398,6 +8398,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 123.825 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8732,6 +8741,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 200.66 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2abda2cc-6c09-4df8-a4e4-843c6fa7f3fb")
 		)
@@ -8801,6 +8819,15 @@
 			)
 		)
 		(property "DigiKey" "HR1964CT-ND"
+			(at 73.66 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114218"
 			(at 73.66 172.72 0)
 			(effects
 				(font
@@ -9319,7 +9346,7 @@
 		(at 205.105 88.265 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9362,6 +9389,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 205.105 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
 			(at 205.105 88.265 0)
 			(effects
 				(font
@@ -9457,7 +9493,7 @@
 		(at 196.215 88.265 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee748298-9f34-409e-9c33-ae776a2a1ae4")
@@ -9499,6 +9535,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 196.215 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
 			(at 196.215 88.265 0)
 			(effects
 				(font

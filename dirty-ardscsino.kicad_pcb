@@ -178,12 +178,25 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f2bce92-4d59-4882-a2b9-9d38252b3415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/c9839efa-8417-45aa-92af-0ac7bb8a0ce3")
 		(sheetname "/")
 		(sheetfile "dirty-ardscsino.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -2233,6 +2246,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C114218"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f7bc0a9-17cb-41ea-824c-e8965c58f584")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00006033fcca")
 		(sheetname "/")
 		(sheetfile "dirty-ardscsino.kicad_sch")
@@ -3459,11 +3485,24 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd0e8bfb-4533-4023-9d8b-0f6d26a42202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-000060313f23")
 		(sheetname "/")
 		(sheetfile "dirty-ardscsino.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -4425,12 +4464,25 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91184730-9890-4ed6-9d1e-055377e30e26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/ee748298-9f34-409e-9c33-ae776a2a1ae4")
 		(sheetname "/")
 		(sheetfile "dirty-ardscsino.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -9842,6 +9894,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eddfd942-6097-4558-a6eb-363e9acd7cd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5142565"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1ebcb25-fb1d-4aa2-ba4f-d5295718c875")
 			(effects
 				(font
 					(size 1 1)
