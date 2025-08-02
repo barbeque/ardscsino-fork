@@ -70,7 +70,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "dirty-ardscsino-2-v1")
+			(outputdirectory "dirty-ardscsino-2-v2")
 		)
 	)
 	(net 0 "")
