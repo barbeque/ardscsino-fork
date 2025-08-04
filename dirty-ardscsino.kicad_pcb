@@ -769,7 +769,7 @@
 			(at 12.7 -2.4 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "14259d00-dc1a-4a21-8fef-117e71b6e831")
+			(uuid "2310a00f-a418-4141-82a4-a6b45e747746")
 			(effects
 				(font
 					(size 1 1)
@@ -780,7 +780,7 @@
 		(property "Value" "330Ω"
 			(at 12.7 2.4 90)
 			(layer "F.SilkS")
-			(uuid "1a1dccc3-fb11-4e61-9040-514babef833a")
+			(uuid "4e445532-44b8-4b98-9965-b604083b83ab")
 			(effects
 				(font
 					(size 1 1)
@@ -793,7 +793,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98fa3848-bc7f-4b19-a4bd-cde9783bd923")
+			(uuid "8c79b66e-2f13-46b3-8523-3d050e3e7370")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -806,7 +806,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3883d590-9614-469b-b4bb-2462fb3163cb")
+			(uuid "d7de4390-3dd7-4e6f-82db-405cc26587e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,6 +11491,18 @@
 		(layer "Edge.Cuts")
 		(uuid "dddc786b-e2c7-47bd-a7ea-102c54e01794")
 	)
+	(gr_text "~{RST}"
+		(at 118.872 70.922583 0)
+		(layer "F.SilkS")
+		(uuid "20ef41ba-d8ed-4d0b-89cb-9a810ebf5842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 103.505 126.5 0)
 		(layer "F.SilkS" knockout)
@@ -11851,7 +11863,7 @@
 			)
 		)
 	)
-	(gr_text "leadedsolder.com 2025 v2"
+	(gr_text "leadedsolder.com 2025 v3"
 		(at 170 72 90)
 		(layer "F.SilkS" knockout)
 		(uuid "c0c00a1d-605d-4e60-9fbc-467a81631a6e")
