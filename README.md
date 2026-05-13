@@ -38,7 +38,7 @@ For the boards without jumpers (i.e. the USB-C ones that I warn about lower down
 | J1 | 50-pin SCSI box header, male | 3M157291-ND | |
 | J2 | 4-pin Berg floppy power, TE 171825-4 | A106197-ND | |
 | J3 | micro SD card slot, Hirose DM3AT-SF-PEJM5 | HR1964CT-ND | |
-| U2 | STM32 Blue Pill | | This should be sourced from AliExpress; see below for common problems. |
+| U2 | STM32 Blue Pill **C8T6** | | This should be sourced from AliExpress; see below for common problems. |
 | R1 | 560Ω through-hole resistor | | |
 | RN1, RN4 | 10-pin (9-way) bussed 220Ω resistor network | 4610X-1-221LF-ND | |
 | RN2, RN3 | 10-pin (9-way) bussed 330Ω resistor network | 4610X-1-331LF-ND | |
