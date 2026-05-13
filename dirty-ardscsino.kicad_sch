@@ -5011,6 +5011,12 @@
 		(uuid "01497bdf-f261-4b22-90e8-78cae1f77e66")
 	)
 	(junction
+		(at 208.28 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "038dd8b0-df9b-4efb-8326-c0af545403c5")
+	)
+	(junction
 		(at 78.74 107.315)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6175,6 +6181,16 @@
 			(type default)
 		)
 		(uuid "e1b8f44a-01a6-4e02-9186-cebccd9a3d94")
+	)
+	(wire
+		(pts
+			(xy 208.28 95.885) (xy 249.555 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27b7a93-7acd-4478-9837-4070f8ea04ce")
 	)
 	(wire
 		(pts
@@ -9016,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "A106197-ND\r"
+		(property "DigiKey" "A106197-ND"
 			(at 116.84 167.64 90)
 			(effects
 				(font

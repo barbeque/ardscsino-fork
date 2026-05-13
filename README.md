@@ -28,6 +28,21 @@ For the boards without jumpers (i.e. the USB-C ones that I warn about lower down
  1. Hold the BOOT0 button on the Blue Pill while inserting the ST-Link into your computer. Keep holding it while you run the BlueSCSI Updater and write the bare firmware. Release the BOOT0 button and unplug it and the ST-Link once done.
  2. In stage two, plug the Blue Pill in via USB-C, start the firmware update process, and hit the nRST (reset) button on the top when the flasher is waiting for the device to appear. It should proceed.
 
+## Bill of Materials (BOM)
+
+| Position | Component              | Digi-Key part number | Comments                               |
+|----------|------------------------|----------------------|----------------------------------------|
+| C1 | 4.7µF through-hole capacitor | | |
+| C2 | 0.1µF 0805 SMD ceramic capacitor | | |
+| D1 | Optional activity LED, 3mm radial | | |
+| J1 | 50-pin SCSI box header, male | 3M157291-ND | |
+| J2 | 4-pin Berg floppy power, TE 171825-4 | A106197-ND | |
+| J3 | micro SD card slot, Hirose DM3AT-SF-PEJM5 | HR1964CT-ND | |
+| U2 | STM32 Blue Pill | | This should be sourced from AliExpress; see below for common problems. |
+| R1 | 560Ω through-hole resistor | | |
+| RN1, RN4 | 10-pin (9-way) bussed 220Ω resistor network | 4610X-1-221LF-ND | |
+| RN2, RN3 | 10-pin (9-way) bussed 330Ω resistor network | 4610X-1-331LF-ND | |
+
 ## Common Blue Pill problems
 Because the STM32 Blue Pill has been knocked off by a jillion different individuals, here are some of the problems I've encountered while trying to build these boards.
 
