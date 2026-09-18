@@ -4983,26 +4983,15 @@
 		)
 		(uuid "80146a38-6fe2-48f8-aeb1-e5446dcb1fc2")
 	)
-	(text "Optional external LED header"
+	(text "LED"
 		(exclude_from_sim no)
-		(at 215.265 17.78 0)
+		(at 202.565 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "a227247d-1792-49b6-a5e1-127ef13637fa")
-	)
-	(text "Still not 100% sure about these SD card pinouts"
-		(exclude_from_sim no)
-		(at 65.405 193.675 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "defeb9ea-31d4-4cc4-b3a8-b880a489f767")
 	)
 	(junction
 		(at 123.825 43.18)
@@ -8757,7 +8746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28233"
 			(at 200.66 95.885 90)
 			(effects
 				(font
@@ -9144,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Value" "560Ω"
+		(property "Value" "1kΩ"
 			(at 226.06 24.13 90)
 			(effects
 				(font
@@ -9152,7 +9141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 226.06 27.94 0)
 			(effects
 				(font
@@ -9181,6 +9170,15 @@
 		)
 		(property "DigiKey" ""
 			(at 226.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 226.06 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 215.265 27.94 90)
 			(effects
 				(font
@@ -9266,6 +9264,15 @@
 			)
 		)
 		(property "DigiKey" ""
+			(at 215.265 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2292"
 			(at 215.265 27.94 0)
 			(effects
 				(font
