@@ -8589,7 +8589,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "10µF"
 			(at 130.175 28.9306 90)
 			(effects
 				(font

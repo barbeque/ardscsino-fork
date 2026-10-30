@@ -4151,7 +4151,7 @@
 		)
 		(property "Value" "Ext. Activity"
 			(at 1.27 2.96 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "8792c960-fd95-48eb-b078-473f35f124fe")
 			(effects
 				(font
@@ -11002,7 +11002,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "10µF"
 			(at 1 3.75 90)
 			(layer "F.SilkS")
 			(uuid "347ce931-4f47-4c2f-83fe-a86c4975a088")
